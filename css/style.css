@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+  }
+
+  /* header */
+
+  #header {
+    text-align: center;
+    font-family: 'Pokemon Fire Red', sans-serif;
+    background-image: url(http://shop.software-atelier.ch/wp-content/uploads/edd/2014/10/Product-Parallax-Background-Islands.png);
+    background-size: cover
+  }
+
+  #avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position:relative;
+  }
+
+  #nombre {
+      font-size: 70px;
+      margin-bottom: 13px;
+      font-weight: bold;
+  }
+  
+  .subtitulo{
+    font-size: 2em;
+    font-weight: bold;
+    color: darkblue;
+    padding-bottom: 0.2em;
+  
+  }
+
+  /*body*/
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(254, 255, 240);
+  }
+
+
+  h2 {
+    text-align: center;
+  }
+  
+
+  section {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      margin-right: 0.7em;
+      margin-left: 0.7em;
+      padding: 0.5em;
+      background-color: #eee;
+  }
+  
+  section h3 {
+    font-weight: bolder;
+    text-align: left;
+    color: rgb(112, 156, 170);
+  }
+
+  .informacion {
+    text-align: center;
+    color: rgb(168, 102, 16);
+    font-size: 1.2em;
+  }
+
+  .container {
+    width: 95%;
+    max-width: fit-content;
+  }
+
+  #contacto {
+    display: none
+  }
+
+  ul.info {
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    color: rgb(168, 102, 16);
+    font-size: 1em;
+  }
+
+
+  sec li.co-1 {
+    border-style: double;
+    margin: 0.7vw;
+    background-color: aliceblue;
+    justify-content: space-between;
+  }
+
+  sec li.co-2 {
+    background-color: aliceblue;
+    text-decoration: none;
+    color: rgb(168, 102, 16) ;
+    justify-content: space-between;
+    margin: 0.7vw;
+    border-style: double;
+  }
+
+  .co-2:hover {
+    background-color: rgb(178, 217, 251);
+    color: rgb(168, 102, 16);
+    border: 2px solid;
+    margin: 0.7vw;
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(149, 215, 253);
+    color: rgb(255, 255, 255);
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+
+  }
+
+  @media (max-width: 700px) {
+    .co-1,
+    .co-2 {
+      width: 100%;
+    }
+
+  }
+
+  .educacion {
+    text-align: center;
+  }
+
+  ul.tareas {
+    list-style-type: none;
+    color: grey;
+    display: none;
+  }
+
+  .experiencia {
+    text-align: center;
+  }
+
+  .empresa {
+    color: rgb(168, 102, 16);
+  }
+  
+  .main {
+    background-color: #33abcc;
+    color: #ffffff;
+    border: 1px solid rgb(203, 177, 177);
+    padding: 1vw;
+    display: block;
+  }
+  
+  .main:hover {
+    background-color: #0099cc;
+  }
+
+  .iconos {
+    width:7vw;
+    height: 7vw;
+    size: 45px;
+    padding: 1vw 0 2vw 1vw;
+    float: inline-start;
+    clear: both;
+    padding: 1vw;
+    margin-bottom: 1.3vw;
+   }
+
+   
+  p {
+    margin: 0 1rem 0.5rem 1rem!important;
+  }
+
+   button {
+    background-color: #7cbdff;
+    box-shadow: rgba(44, 144, 187, 0.855) 0 -25px 18px -14px inset,rgba(44, 168, 187, 0.535) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 185, 0.44) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    border: none;
+    border-radius: 50% !important;
+    color: rgb(0, 0, 0) !important;
+    padding: 0;
+    margin-bottom: 1.5vw !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+button:hover {
+    box-shadow: rgba(83, 125, 240, 0.616) 0 -25px 18px -14px inset,rgba(44, 77, 187, 0.25) 0 1px 2px,rgba(44, 120, 187, 0.25) 0 2px 4px,rgba(44, 120, 187, 0.25) 0 4px 8px,rgba(44, 94, 187, 0.25) 0 8px 16px,rgba(44, 104, 187, 0.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+   /*footer*/
+
+  hr.rounded {
+    border-radius: 5px;
+    position: relative;
+    color: rgb(0, 0, 0);
+  }
+
+  .footer {
+    background-color:#9ad3ef;
+    position: fixed;
+    right: 0px; bottom: 0px;
+  }
+
+  #logro {
+    margin: 0;
+  }
+
+  #fixed {
+    width: 2.5vw;
+    height: 2.5vw;
+  
+  }
+
