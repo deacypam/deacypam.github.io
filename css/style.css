@@ -90,6 +90,7 @@
   sec li.co-1 {
     border-style: double;
     margin: 0.7vw;
+    border-radius: 70rem;
     background-color: aliceblue;
     justify-content: space-between;
   }
@@ -97,6 +98,7 @@
   sec li.co-2 {
     background-color: aliceblue;
     text-decoration: none;
+    border-radius: 70rem;
     color: rgb(168, 102, 16) ;
     justify-content: space-between;
     margin: 0.7vw;
@@ -104,7 +106,7 @@
   }
 
   .co-2:hover {
-    background-color: rgb(178, 217, 251);
+    background-color: rgba(178, 217, 251, 0.156);
     color: rgb(168, 102, 16);
     border: 2px solid;
     margin: 0.7vw;
@@ -179,20 +181,19 @@
     margin: 0 1rem 0.5rem 1rem!important;
   }
 
-   button {
-    background-color: #7cbdff;
-    box-shadow: rgba(44, 144, 187, 0.855) 0 -25px 18px -14px inset,rgba(44, 168, 187, 0.535) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 185, 0.44) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  button {
+    background-color: rgba(51, 177, 231, 0.093);
+    box-shadow: rgba(137, 208, 238, 0.243) 0 -25px 18px -14px inset,rgba(135, 183, 234, 0.399) 0 1px 2px,rgba(70, 198, 248, 0.15) 0 2px 4px,rgba(48, 148, 188, 0.44) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
     border: none;
-    border-radius: 50% !important;
-    color: rgb(0, 0, 0) !important;
+    border-radius: 100rem !important;
+    color: rgba(102, 112, 229, 0.644) !important;
     padding: 0;
+    margin-top: 1vw;
     margin-bottom: 1.5vw !important;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1vw;
-    font-weight: bold;
-  }
 
 button:hover {
     box-shadow: rgba(83, 125, 240, 0.616) 0 -25px 18px -14px inset,rgba(44, 77, 187, 0.25) 0 1px 2px,rgba(44, 120, 187, 0.25) 0 2px 4px,rgba(44, 120, 187, 0.25) 0 4px 8px,rgba(44, 94, 187, 0.25) 0 8px 16px,rgba(44, 104, 187, 0.25) 0 16px 32px;
